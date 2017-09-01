@@ -276,9 +276,9 @@
                 }
             },
             {
-                title: "UITextTest_IgnoreConentSize",
+                title: "UITextTest_IgnoreContentSize",
                 func: function(){
-                    return new UITextTest_IgnoreConentSize();
+                    return new UITextTest_IgnoreContentSize();
                 }
             },
             {
@@ -408,6 +408,12 @@
                 title: "UILayoutTest_Layout_Relative_Location",
                 func: function () {
                     return new UILayoutTest_Layout_Relative_Location();
+                }
+            },
+            {
+                title: "UILayoutTest_Layout_Scaled_Widget",
+                func: function () {
+                    return new UILayoutTest_Layout_Scaled_Widget();
                 }
             },
             {
